@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 500px 30px;
+  justify-content: space-between;
+  color: white;
+  padding: 60px 60px 30px;
+  gap: 40px;
+  background-color: #0a22f4;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  grid-column: 1/ 2;
+  grid-row: 1 / 2;
+}
+.flex p {
+  margin-top: 4%;
+}
+.maps {
+  margin-top: 10%;
+  border-radius: 5%;
+}
+.contact {
+  display: flex;
+  justify-content: start;
+  margin-top: 5%;
+  align-items: center;
+}
+.contact a {
+  color: #ffffff;
+  margin-left: 2%;
+}
+.contact img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.icon-2 {
+  margin-left: 2%;
+}
+.registration {
+  padding-top: 15%;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.form-group {
+  margin-bottom: 25px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 12px 0;
+  color: white;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  width: 151px;
+  height: 55px;
+  border-radius: 28px;
+  border: none;
+}
+.last-line-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  grid-column: 2/ 3;
+  grid-row: 2 / 3;
+  justify-content: flex-end;
+}
+.last-line-left {
+  display: flex;
+  align-items: flex-end;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.last {
+  display: flex;
+}
+.last span {
+  margin-right: 2%;
+}
+.last img {
+  margin-right: 2%;
+}
