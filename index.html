@@ -49,16 +49,30 @@
         <section class="registration">
           <form>
             <div class="form-group">
-              <input type="text" placeholder="სახელი, გვარი" />
+              <label for="name"></label>
+              <input
+                type="text"
+                placeholder="სახელი, გვარი"
+                id="name"
+                required
+              />
             </div>
             <div class="form-group">
-              <input type="email" placeholder="ელ. ფოსტა" />
+              <label for="email"></label>
+              <input type="email" placeholder="ელ. ფოსტა" id="email" required />
             </div>
             <div class="form-group">
-              <input type="tel" placeholder="ტელეფონის ნომერი" />
+              <label for="tel"></label>
+              <input
+                type="number"
+                placeholder="ტელეფონის ნომერი"
+                id="tel"
+                min="9"
+                required
+              />
             </div>
             <div class="form-group">
-              <textarea placeholder="შეტყობინება"></textarea>
+              <textarea placeholder="შეტყობინება" required></textarea>
             </div>
             <div class="button">
               <button class="btn" type="submit">გაგზავნა</button>
